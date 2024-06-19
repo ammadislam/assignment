@@ -12,7 +12,8 @@ This project demonstrates a FastAPI application that integrates with Google Fire
 ## Running the application
 1. Running app locally:
 
-   docker run -p 8000:8000 test:v2
+   uvicorn main:app --host 0.0.0.0 --port 8000
+
 
 3. Running app with Docker:
    
